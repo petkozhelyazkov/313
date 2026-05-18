@@ -1,0 +1,70 @@
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Bb]uilds/
+*.pdb
+*.cache
+*.tmp
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.vs/
+
+# ASP.NET secrets / Identity user secrets
+secrets.json
+**/secrets.json
+appsettings.*.local.json
+
+# EF Core
+*.sqlite
+*.db
+
+# ---- Node / Frontend ----
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+.cache/
+
+# ---- Logs ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Env files ----
+.env
+.env.*
+!.env.example
+
+# ---- IDE / Editors ----
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+docs/
+
+# ---- Docker volumes (data) ----
+docker/data/
+
+# ---- OS ----
+.fuse_hidden*
+.directory
+.Trash-*
